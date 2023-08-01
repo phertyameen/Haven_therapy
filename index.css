@@ -1,0 +1,180 @@
+
+*{
+    --primary: #286256;
+    --secondary: #e8b132;
+    --white: #fff;
+    --text: #081411;
+    --lato: 'lato', sans-serif;
+    --libre: 'libre Baskerville', serif;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--libre);
+    font-style: italic;
+}
+.logo{
+    text-decoration: none;
+}
+.logo .haven {
+    color: var(--primary);
+    font-style: italic;
+    font-weight: 600;
+}
+.logo .therapy {
+    color: var(--secondary);
+    font-style: italic;
+    font-weight: 600;
+}
+nav{
+    margin: 1.75rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 1rem;
+    text-transform: capitalize;
+    list-style-type: none;
+}
+nav ul a {
+    color: var(--text);
+    font-weight: 500;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav_btn .login{
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--primary);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 999px;
+    width: 8rem;
+    margin-right: 2rem;
+}
+.nav_btn .get_started{
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 999px;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: none;
+}
+.overall_header_div {
+    height: 75vh;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://haventherapypractice.files.wordpress.com/2023/03/317684893_117982061131970_4538218189582532686_n.jpg');
+    /* background-image: linear-gradient(to bottom, rgb(0,0,0)), url(''); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sub_header_div_1 {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-inline: auto;
+}
+.individual_therapy_btn {
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 999px;
+    padding: 0.75rem 2.5rem;
+    margin-right: 3rem;
+    border: none;
+}
+.Couples_therapy_btn{
+    color: var(--white);
+    border-radius: 999px;
+    padding: 0.75rem 2.5rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.sub_header_div_2{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    text-align: center;
+}
+#verified_therapists p, h3{
+    color: var(--white);
+}
+#satisfied_clients p, h3{
+    color: var(--white);
+}
+#verified_therapists, #satisfied_clients{
+    border-right: 1px solid #081411;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: var(--white);
+}
+#years_of_exp {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    font-weight: 600;
+}
+#years_of_exp p, h3{
+    color: var(--white);
+}
+.section1{
+    background: #EBE6DF;
+    display: flex;
+    gap: 4rem;
+    height: 70vh;
+}
+.text_section{
+    padding-left: 2rem;
+    margin-block: auto;
+    width: 90%;
+}
+.text_section a{
+    text-decoration: none;
+    color: var(--primary);
+    margin-top: 2rem;
+    font-weight: 600;
+}
+#verified_prof{
+    color: var(--primary);
+    font-weight: 600;
+}
+.images_div{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    width: 100%;
+    margin-block: auto;
+    margin: 1rem;
+}
+.images_div img{
+    width: 100%;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.images_div .image_col2_div img{
+    border-top-left-radius: 0;
+    border-top-right-radius: 22px;
+}
+.image_col3_div{
+    margin-top: 3rem;
+}
+
